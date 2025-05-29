@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+body{
+    overflow-x: hidden;
+}
+.home-services-banner{
+    background: linear-gradient(rgb(11,20,96,0.8),rgb(11,20,96,0.8)), url("/src/assets/images/services.jpg") center center no-repeat;
+    height: 300px;
+    background-size: cover;
+    width: 100%;
+}
+
+.home-contact-banner{
+    background: linear-gradient(rgb(11,20,96,0.8),rgb(11,20,96,0.8)), url("/src/assets/images/contact.jpg") center center no-repeat;
+    height: 300px;
+    background-size: cover;
+    width: 100%;
+}
+.footer-banner{
+    background: linear-gradient(rgb(11,20,96,0.9),rgb(11,20,96,0.9)), url("/src/assets/images/contact.jpg") center center no-repeat;
+    min-height: 400px;
+    background-size: cover;
+    width: 100%;
+}
