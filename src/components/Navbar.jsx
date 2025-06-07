@@ -1,12 +1,21 @@
-import {FaPhoneAlt} from "react-icons/fa";
+import { useState } from "react";
+import { BiMenu, BiX } from "react-icons/bi";
 
 export const Navbar = () => {
+    const [show, setShow]=useState(false);
+    const showMenu = ()=>{
+        setShow(!show);
+    }
     return (
         <div className="shadow-sm ">
-            <div className="flex justify-between items-center max-w-screen-xl mx-auto p-4">
-                <a href="#"> LOGO</a>
-                <nav>
-                    <ul className="flex justify-between gap-10 items-center">
+            <div className="max-w-screen-xl mx-auto p-4">
+                <nav className="md:flex md:items-center md:justify-between">
+                    <div className="flex justify-between">
+                        <a href="#" className="">LOGO</a>
+                        <BiMenu className={`cursor-pointer text-4xl md:hidden ${show ? "hidden": "block"}`} onClick={()=>showMenu()}/>
+                        <BiX className={`cursor-pointer text-4xl md:hidden ${show ? "block": "hidden"}`} onClick={()=>showMenu()}/>
+                    </div>
+                    <ul className={`md:flex md:gap-10 md:p-4 md:items-center ${show ? "block": "hidden"}`}>
                         <li><a href="/">ACCUEIL</a></li>
                         <li><a href="/services">SERVICES</a></li>
                         <li><a href="/declaration-impots-en-ligne">DÉCLARATION D'IMPÔTS EN LIGNE</a></li>
@@ -14,15 +23,6 @@ export const Navbar = () => {
                         <li><a href="/contact">CONTACT</a></li>
                     </ul>
                 </nav>
-                <div className="flex  items-center gap-4">
-                    <div>
-                        <FaPhoneAlt className="text-2xl" />
-                    </div>
-                    <div>
-                        <p>Téléphone</p>
-                        <p>(418) 521-8425</p>
-                    </div>
-                </div>
             </div>
         </div>
     )

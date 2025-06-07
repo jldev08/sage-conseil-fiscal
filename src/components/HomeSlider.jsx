@@ -1,24 +1,20 @@
-import Slider from "react-slick";
 import { carouselOne, carouselTwo } from "../assets";
+import { Carousel } from "react-responsive-carousel";
 
-
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 export const HomeSlider = () => {
-        var settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-    };
     return (
-        <Slider {...settings}>
+        <Carousel
+            showArrows={true}
+            autoPlay={true}
+            infiniteLoop={3}
+        >
             <div>
-                <img src={carouselOne} className="w-full" alt="" />
+                <img src={carouselOne} />
             </div>
             <div>
-                <img src={carouselTwo} className="w-full" alt="" />
+                <img src={carouselTwo} />
             </div>
-        </Slider>
+        </Carousel>
     );
 }
