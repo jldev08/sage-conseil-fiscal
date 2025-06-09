@@ -4,7 +4,7 @@ import { BsFillTelephoneFill } from "react-icons/bs"
 export const Footer = () => {
     return (
         <footer className="footer-banner bg-cover bg-no-repeat h-full p-10 relative">
-            <div className="lg:grid lg:grid-cols-4 mb-4 gap-8 max-w-screen-2xl content-center">
+            <div className="lg:grid lg:grid-cols-4 mb-4 gap-8 max-w-screen-xl mx-auto content-center">
                 <div className="w-full md:mb-2"> 
                     <a href="#">LOGO SAGE CONSEIL FISCAL</a>
                     <p className="text-white mt-6">
@@ -47,14 +47,14 @@ export const Footer = () => {
                     <p className="text-white mt-4">
                         5300, Boulevard des Galeries Bureau 210 Québec (Qc) G2K 2A2
                     </p>
-                    <h3 className="font-bold text-white text-2xl">heure d'Ouverture</h3>
+                    <h3 className="font-bold text-white text-2xl mt-4 mb-4">heure d'Ouverture</h3>
                     <p className="text-white">
                         Lundi à Vendredi: 8h30 à 20h30
                         Samedi: 10h00 à 17h00 Dimanche: Fermé</p>
-                </div> 
+                </div>
             </div>
             <div className="flex border-t-white border items-center justify-center flex-col w-full absolute left-0 bottom-0">
-                <p className="text-white text-center p-2"> 2025 Les Experts de Sage Conseil Fiscal. | Tous droits réservés | Conception & Marketing Web par Gouse Tech</p>
+                <p className="text-white text-center p-2">Copyright &copy; 2025 - Sage Conseil Fiscal - Tous droits réservés by <span className="font-bold"><a href="#">DevMinSet</a></span></p>
             </div>
         </footer>
     )

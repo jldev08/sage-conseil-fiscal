@@ -11,7 +11,7 @@ body{
     background: linear-gradient(to top,rgb(11,20,96,0.8),rgb(11,20,96,0.8)), url("/src/assets/images/contact.jpg");
 }
 .home-contact-banner{
-    background: linear-gradient(to top,rgb(11,20,96,0.8),rgb(11,20,96,0.8)), url("/src/assets/images/contact.jpg");
+    background: linear-gradient(rgb(11,20,96,0.8),rgb(11,20,96,0.8)), url("/src/assets/images/contact.jpg");
 }
 .footer-banner{
     background: linear-gradient(to top,rgb(11,20,96,0.9),rgb(11,20,96,0.7)), url("/src/assets/images/footer-background.jpg");
@@ -19,4 +19,14 @@ body{
 
 .carousel .thumbs-wrapper{
     text-align: center;
+}
+
+.service-banner{
+    background: linear-gradient(rgb(11,20,96,0.6),rgb(11,20,96,0.6)), url("/src/assets/images/gamme-de-services.jpg") center;
+}
+.contact-banner{
+    background: linear-gradient(rgb(11,20,96,0.6),rgb(11,20,96,0.6)), url("/src/assets/images/contact-banner.jpg") center;
+}
+.about-banner{
+    background: linear-gradient(rgb(11,20,96,0.6),rgb(11,20,96,0.6)), url("/src/assets/images/about.jpg") center;
 }

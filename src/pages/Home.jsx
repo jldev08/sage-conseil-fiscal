@@ -1,6 +1,7 @@
 import {LayoutComponent} from "../components/LayoutComponent.jsx";
 import {HomeSlider} from "../components/HomeSlider.jsx";
 import { homePagePictureOne, homeSolutionPictureOne } from "../assets/index.js";
+import BannerContact from "../components/BannerContact.jsx";
 
 export const Home = () => {
     return (
@@ -19,7 +20,7 @@ export const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className="mt-20 bg-cover bg-no-repeat home-services-banner h-[350px]">
+            <section className="mt-20 bg-cover bg-no-repeat home-services-banner h-full p-8">
                 <div className="flex justify-center items-center h-full w-full flex-col">
                     <h4 className="md:text-4xl max-md:text-2xl text-white text-center">Avec notre équipe d'experts comptables qualifiés et expérimentés, nous sommes là pour vous aider à gérer efficacement vos finances et à atteindre vos objectifs financiers.</h4>
                     <a href="/services" className="bg-black text-white p-4 mt-6 rounded-2xl hover:bg-blue-950">Consulter nos services</a>
@@ -46,13 +47,7 @@ export const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className="mt-20 bg-cover bg-no-repeat home-contactus-banner h-[450px]">
-                <div className="flex justify-center items-center h-full w-full flex-col p-4">
-                    <h4 className="text-4xl text-white text-center">Merci de votre intérêt pour Les Experts de Sage Conseil Fiscal</h4>
-                    <p className="text-white pt-4 text-center">N’hésitez pas à nous contacter pour en savoir plus sur nos services et sur la manière dont nous pouvons vous aider à réussir sur le plan financier. <br/>Nous serions ravis de travailler avec vous pour bâtir un avenir financier solide et prospère.</p>
-                    <a href="/contact" className="bg-black text-white p-4 mt-8 rounded-2xl hover:bg-blue-950">Contactez-nous</a>
-                </div>
-            </section>
+          <BannerContact/>
         </LayoutComponent>
     )
 }
