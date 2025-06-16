@@ -3,7 +3,6 @@ import Banner from "../components/Banner.jsx";
 import BannerContact from "../components/BannerContact.jsx";
 import {aboutTeam, aboutUs} from "../assets/index.js";
 import {BiMoneyWithdraw, BiSolidTimeFive, BiSolidUser} from "react-icons/bi";
-
 export const About = () => {
     return (
         <LayoutComponent>
