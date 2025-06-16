@@ -10,5 +10,5 @@ export default defineConfig({
     tailwindcss(),
     flowbiteReact()
   ],
-  base: "./",
+  base: "./sage-consel-fiscal-web/dist",
 })
