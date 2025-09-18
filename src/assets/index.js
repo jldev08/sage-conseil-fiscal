@@ -4,5 +4,5 @@ export {default as homePagePictureOne} from './images/gamme-de-services.jpg';
 export {default as homeSolutionPictureOne} from './images/solutions.jpg';
 export {default as homeBannerContact} from './images/contact.jpg';
 export {default as homeServicesContact} from './images/services.png';
-export {default as aboutUs} from './images/about-us.jpg';
+export {default as aboutUs} from './images/about-us-one.jpeg';
 export {default as aboutTeam} from './images/team.jpg';

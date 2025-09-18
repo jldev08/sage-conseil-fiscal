@@ -6,13 +6,13 @@ export const TopHeader = () => {
         <div className="bg-blue-800">
             <header className="w-full max-w-screen-xl mx-auto shadow-sm flex max-md:flex-col lg:justify-between max-md:gap-4 p-6">
                 <div className="lg:w-1/5">
-                    <p className="flex max-md:justify-center items-center text-white"><BiEnvelope className="text-2xl"/>&nbsp;<span>info@ebconseilfisc.com</span></p>
+                    <p className="flex max-md:justify-center items-center text-white"><BiEnvelope className="text-2xl"/>&nbsp;<span>Info@sageconseilfiscal.com</span></p>
                 </div>
                 <div className="lg:w-1/5">
-                    <p className="text-white flex max-md:justify-center"><FaPhoneAlt className="text-xl" />&nbsp;(418) 521-8425 / 5300</p>
+                    <p className="text-white flex max-md:justify-center"><FaPhoneAlt className="text-xl" />&nbsp;418 575 4236</p>
                 </div>
                 <div className="lg:w-1/3">
-                    <p className="flex max-md:justify-center items-center text-white"><BiMapPin className="text-2xl"/>&nbsp;<span>Boulevard des Galeries Bureau 210 Québec</span></p>
+                    <p className="flex max-md:justify-center items-center text-white"><BiMapPin className="text-2xl"/>&nbsp;<span>Québec, Canada</span></p>
                 </div>
                 <div className="lg:w-1/4 flex lg:justify-end max-md:justify-center">
                     <ul className="flex lg:justify-end gap-2">
