@@ -1,5 +1,9 @@
 @import "tailwindcss";
-
+:root{
+    --blue-color:#2E2C5A;
+    --orange-color:#E67825;
+    --gray-color:#B1B0C1;
+}
 body{
     font-family: "Roboto",Arial,sans-serif;
 }
@@ -29,4 +33,13 @@ body{
 }
 .about-banner{
     background: linear-gradient(rgb(11,20,96,0.6),rgb(11,20,96,0.6)), url("/src/assets/images/about.jpg") center;
+}
+.bg-blue-custom{
+   background: var(--blue-color);
+}
+.bg-orange-custom{
+    background: var(--orange-color);
+}
+.bg-gray-custom{
+    background: var(--gray-color);
 }

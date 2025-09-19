@@ -6,3 +6,4 @@ export {default as homeBannerContact} from './images/contact.jpg';
 export {default as homeServicesContact} from './images/services.png';
 export {default as aboutUs} from './images/about-us-one.jpeg';
 export {default as aboutTeam} from './images/team.jpg';
+export {default as logoSCF} from './images/logo.png';

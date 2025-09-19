@@ -1,24 +1,24 @@
-import {BiEnvelope, BiLocationPlus, BiLogoFacebookCircle, BiLogoLinkedinSquare, BiLogoYoutube, BiMapPin} from "react-icons/bi";
+import {BiEnvelope, BiLogoFacebookCircle, BiLogoLinkedinSquare, BiLogoYoutube, BiMapPin} from "react-icons/bi";
 import { FaPhoneAlt } from "react-icons/fa";
 
 export const TopHeader = () => {
     return (
-        <div className="bg-blue-800">
-            <header className="w-full max-w-screen-xl mx-auto shadow-sm flex max-md:flex-col lg:justify-between max-md:gap-4 p-6">
+        <div className="bg-blue-custom">
+            <header className="flex w-full max-w-screen-xl p-6 mx-auto shadow-sm max-md:flex-col lg:justify-between max-md:gap-4">
                 <div className="lg:w-1/5">
-                    <p className="flex max-md:justify-center items-center text-white"><BiEnvelope className="text-2xl"/>&nbsp;<span>Info@sageconseilfiscal.com</span></p>
+                    <p className="flex items-center text-white max-md:justify-center"><BiEnvelope className="text-2xl"/>&nbsp;<span>info@sageconseilfiscal.com</span></p>
                 </div>
                 <div className="lg:w-1/5">
-                    <p className="text-white flex max-md:justify-center"><FaPhoneAlt className="text-xl" />&nbsp;418 575 4236</p>
+                    <p className="flex text-white max-md:justify-center"><FaPhoneAlt className="text-xl" />&nbsp;418 575-4236</p>
                 </div>
                 <div className="lg:w-1/3">
-                    <p className="flex max-md:justify-center items-center text-white"><BiMapPin className="text-2xl"/>&nbsp;<span>Québec, Canada</span></p>
+                    <p className="flex items-center text-white max-md:justify-center"><BiMapPin className="text-2xl"/>&nbsp;<span>Québec, Canada</span></p>
                 </div>
-                <div className="lg:w-1/4 flex lg:justify-end max-md:justify-center">
-                    <ul className="flex lg:justify-end gap-2">
-                        <li><a href="#"><BiLogoFacebookCircle className="text-white text-2xl"/></a></li>
-                        <li><a href="#"><BiLogoLinkedinSquare  className="text-white text-2xl"/></a></li>
-                        <li><a href="#" className="flex items-center"><BiLogoYoutube  className="text-white text-2xl"/></a></li>
+                <div className="flex lg:w-1/4 lg:justify-end max-md:justify-center">
+                    <ul className="flex gap-2 lg:justify-end">
+                        <li><a href="#"><BiLogoFacebookCircle className="text-2xl text-white"/></a></li>
+                        <li><a href="#"><BiLogoLinkedinSquare  className="text-2xl text-white"/></a></li>
+                        <li><a href="#" className="flex items-center"><BiLogoYoutube  className="text-2xl text-white"/></a></li>
                     </ul>
                 </div>
             </header>
